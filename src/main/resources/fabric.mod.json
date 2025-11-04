@@ -1,13 +1,17 @@
 {
   "schemaVersion": 1,
-  "id": "switchy_puffish_skills",
+  "id": "${modId}",
   "version": "${version}",
-  "name": "Switchy Puffish Skills",
-  "description": "",
-  "authors": [],
-  "contact": {},
-  "license": "GPL-3.0",
-  "icon": "assets/switchy_puffish_skills/icon.png",
+  "name": "${modName}",
+  "description": "${modDescription}",
+  "authors": ["${authors}"],
+  "contact": {
+    "homepage": "${homepage}",
+    "issues": "${issues}",
+    "sources": "${sources}"
+  },
+  "license": "${license}",
+  "icon": "assets/${modId}/icon.png",
   "environment": "*",
   "entrypoints": {
     "client": [
@@ -18,8 +22,13 @@
     ]
   },
   "depends": {
-    "fabricloader": ">=${loader_version}",
-    "fabric": "*",
-    "minecraft": "${minecraft_version}"
+    "fabricloader": ">=${fabricLoader}",
+    "fabric": ">=${fabricApi}",
+    "minecraft": ">=${mc}",
+    "puffish_skills": ">=0.16.6",
+    "switchy-core": ">=${switchy}",
+    "switchy-client": ">=${switchy}",
+    "switchy-cardinal": ">=${switchy}",
+    "switchy-ui": ">=${switchy}"
   }
 }
