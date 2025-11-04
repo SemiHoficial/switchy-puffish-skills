@@ -1,0 +1,25 @@
+{
+  "schemaVersion": 1,
+  "id": "switchy_puffish_skills",
+  "version": "${version}",
+  "name": "Switchy Puffish Skills",
+  "description": "",
+  "authors": [],
+  "contact": {},
+  "license": "GPL-3.0",
+  "icon": "assets/switchy_puffish_skills/icon.png",
+  "environment": "*",
+  "entrypoints": {
+    "client": [
+      "dev.missy.switchy_puffish_skills.client.SwitchyPuffishSkillsClient"
+    ],
+    "main": [
+      "dev.missy.switchy_puffish_skills.SwitchyPuffishSkills"
+    ]
+  },
+  "depends": {
+    "fabricloader": ">=${loader_version}",
+    "fabric": "*",
+    "minecraft": "${minecraft_version}"
+  }
+}

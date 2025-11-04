@@ -1,0 +1,10 @@
+[versions]
+
+switchy = "2.9.5+1.21"
+
+[libraries]
+
+switchyCore = { group = "folk.sisby", name = "switchy-core", version.ref = "switchy" }
+switchyClient = { group = "folk.sisby", name = "switchy-client", version.ref = "switchy" }
+switchyCardinal = { group = "folk.sisby", name = "switchy-cardinal", version.ref = "switchy" }
+switchyUI = { group = "folk.sisby", name = "switchy-ui", version.ref = "switchy" }

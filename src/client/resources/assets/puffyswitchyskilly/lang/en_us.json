@@ -1,0 +1,6 @@
+{
+  "switchy.modules.puffish.skills.desc": "Compatibility between Pufferfish Skills and Switchy",
+  "switchy.modules.puffish.skills.enable": "Enable Pufferfish Skills compatibility",
+  "switchy.modules.puffish.skills.disable": "Disable Pufferfish Skills compatibility",
+  "switchy.modules.puffish.skills.warning": "You might lose skills, skill points and category experience for other profiles"
+}
