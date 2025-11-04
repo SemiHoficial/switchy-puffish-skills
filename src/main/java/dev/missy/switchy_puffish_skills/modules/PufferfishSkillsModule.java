@@ -96,8 +96,8 @@ public class PufferfishSkillsModule extends PufferfishSkillsModuleData
     @Override
     public void onInitialize() {
         SwitchyModuleRegistry.registerModule(ID, PufferfishSkillsModule::new, new SwitchyModuleInfo(
-                false,
-                SwitchyModuleEditable.OPERATOR,
+                true,
+                SwitchyModuleEditable.NEVER,
                 Feedback.translatable("switchy.modules.puffish.skills.desc"))
                 .withDescriptionWhenEnabled(Feedback.translatable("switchy.modules.puffish.skills.enable"))
                 .withDescriptionWhenDisabled(Feedback.translatable("switchy.modules.puffish.skills.disable"))
